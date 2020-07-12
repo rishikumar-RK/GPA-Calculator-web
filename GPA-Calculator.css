@@ -1,0 +1,57 @@
+body::after {
+  			content: "";
+  			background: url('https://onlinedegrees.sandiego.edu/wp-content/uploads/2017/12/education_inequity_and_homework.jpg');
+  			opacity: 0.3;
+ 			top: 0;
+  			left: 0;
+  			bottom: 0;
+  			right: 0;
+  			position: absolute;
+  			background-size: 100% 100%;
+  			z-index: -1;   
+		}
+		hr{
+			border: 1px solid #c45aec;
+			margin-bottom: 25px;
+		}
+		h1{
+			background-color: #c45aec;
+			color: white;
+		}
+		h5{
+			text-align: right;
+		}
+		.container{
+			border: 7px solid #c45aec;
+			width: 400px;
+			height: auto;
+			padding: 30px;
+			font-family: sans-serif;
+			opacity: 1;
+		}
+		td{
+			padding: 10px;
+		}
+		select{
+			background: none;
+			font-size: 16px;
+			font-family: sans-serif;
+			border: none;
+		}
+		.button{
+			background-color: #c45aec;
+			color: white;
+			font-size: 25px;
+			font-family: sans-serif;
+			cursor: pointer;
+			margin: 4px 2px;
+			padding: 10px 20px;
+			border: none;
+			display: inline-block;
+		}
+		p{
+			font-size: 30px;
+			font-family: sans-serif;
+			color: #c45aec;
+			font-weight: bold;
+		}
